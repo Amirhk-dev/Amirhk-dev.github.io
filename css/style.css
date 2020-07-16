@@ -15,10 +15,10 @@ h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 /* img.avatar { margin-bottom: 30px; } */
-img.img_circle_on, #home:hover .avatar{
+img.img_circle_on.avatar #home:hover{
    margin-bottom: 30px; display:none;
 }
-img.img_circle_off, #home:hover .avatar{
+img.img_circle_off.avatar #home:hover{
    margin-bottom: 30px; display:block
 }
 		
