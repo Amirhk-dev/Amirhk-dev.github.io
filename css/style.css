@@ -21,14 +21,14 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
         display: inline-block;
         margin: 50px;
     }
-    .card .img-top {
+.card .img-top {
         display: none;
         position: absolute;
         top: 0;
         left: 0;
         z-index: 99;
     }
-    .card:hover .img-top {
+.card:hover .img-top {
         display: inline;
     }
 
