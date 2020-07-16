@@ -1,9 +1,35 @@
 <!DOCTYPE html>
+<html lang="en">
+	
+	{% include head.html %}
+	
+	<body>
+		<div class="container">
+			
+			{% include header.html %}
+			
+			{{ content }}
+			
+			{% include footer.html %}
+		
+		</div> <!-- /container -->
+	
+	
+		{% include scripts.html %}
+	
+	</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+<!--			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
 			<nav>
@@ -19,11 +45,12 @@
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer>
+<!--			<footer>
 	    		<ul>
 	        		<li><a href="mailto:kardoostamirhossein@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/Amirhk-dev">github.com/Amirhk-dev</a></li>
 				</ul>
 			</footer>
 		</body>
-	</html>
+	</html> 
+-->
