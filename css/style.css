@@ -18,11 +18,11 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 .urlImg {
       margin-bottom: 30px;	
       display:block;
-      background-image: url('img/amir.jpg');
+      background-image: url('../img/amir.jpg');
     }
 .urlImg:hover {
       margin-bottom: 30px;
-      background-image: url('img/amir1.png');
+      background-image: url('../img/amir1.png');
  }
 		
 /* Custom container */
