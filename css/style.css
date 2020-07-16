@@ -15,11 +15,21 @@ h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 .card {
-        margin-bottom: 30px; 
-        background: url("../img/amir.jpg") no-repeat;
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+        margin: 50px;
     }
-.card:hover {
-        background: url("../img/amir1.jpg") no-repeat;
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
     }
 
 
