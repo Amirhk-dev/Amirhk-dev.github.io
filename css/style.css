@@ -15,20 +15,14 @@ h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 .card {
-        width: 130px;
-        height: 195px;
         position: relative;
         display: inline-block;
-        margin: 50px;
-	margin-bottom: 30px; 
+        margin-bottom: 30px; 
 }
 .card .img-top {
         display: none;
         position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-	margin-bottom: 30px; 
+        margin-bottom: 30px; 
 }
 .card:hover .img-top {
         display: inline;
