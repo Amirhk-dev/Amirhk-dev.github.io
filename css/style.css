@@ -14,7 +14,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
-/* .flippable{
+.flippable{
 	position: relative;
 	display: inline-block;
 }
@@ -31,28 +31,7 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 .flippable:hover .img.avatar{
 	display: inline;
 	margin-bottom: 30px; 
-} */
-
-.flippable {
-        width: 130px;
-        height: 195px;
-        position: relative;
-        display: inline-block;
-        margin: 50px;
-	margin-bottom: 30px;
-}
-.flippable .img-top .avatar{
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-	margin-bottom: 30px;
-}
-.flippable:hover .img-top .avatar{
-        display: inline;
-	margin-bottom: 30px;
-}
+} 
 		
 /* Custom container */
 .container > hr { margin: 30px 0; }
