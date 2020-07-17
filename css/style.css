@@ -31,11 +31,6 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
         display: inline;
     }
 
-img.avatar1:hover{ 
-	margin-bottom: 30px; 
-	display: inline; 
-}
-
 img.avatar{ 
 	margin-bottom: 30px; 
 }
