@@ -18,11 +18,15 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
         position: relative;
         display: inline-block;
         margin-bottom: 30px; 
+	margin: 50px;
 }
 .card .img-top {
         display: none;
         position: absolute;
-        margin-bottom: 30px; 
+        margin-bottom: 30px;
+	top: 0;
+	left: 0;
+	z-index: 99;
 }
 .card:hover .img-top {
         display: inline;
