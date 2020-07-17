@@ -23,6 +23,9 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 	display: none;
 	position: absolute;
 	margin-bottom: 30px; 
+	top: 0;
+	left: 0;
+	z-index: 99;
 }
 
 .flippable:hover .img.avatar{
