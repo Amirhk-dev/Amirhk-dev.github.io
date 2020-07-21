@@ -30,6 +30,9 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 	top: 0;
 	left: 0;
 	z-index: 99;
+	-webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        border-radius: 500px;
 }
 
 .flippable:hover .img-circle{
