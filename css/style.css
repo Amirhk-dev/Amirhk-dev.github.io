@@ -18,6 +18,9 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 	position: relative;
 	display: inline-block;
 	margin-bottom: 30px;
+	-webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        border-radius: 500px;
 }
 
 .flippable .img-circle{  /*.avatar*/
