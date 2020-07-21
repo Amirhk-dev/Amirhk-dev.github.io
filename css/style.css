@@ -20,7 +20,7 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 	margin-bottom: 30px;
 }
 
-.flippable .img-circle.avatar{ 
+.flippable .img-circle{  /*.avatar*/
 	display: none;
 	position: absolute;
 	margin-bottom: 30px; 
@@ -29,7 +29,7 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 	z-index: 99;
 }
 
-.flippable:hover .img-circle.avatar{
+.flippable:hover .img-circle{
 	display: inline;
 	margin-bottom: 30px; 
 } 
