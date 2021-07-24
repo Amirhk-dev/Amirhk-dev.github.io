@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Amirhossein's Website</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Font-awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Amirhossein Kardoost</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="#contact-info">Contact</a>
+            </li>
+            <li class="navbar-item">
+              <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/amirhossein-kardoost-72911257/">LinkedIn</a>
+            </li>
+            <li class="navbar-item">
+              <a target="_blank" class="nav-link" href="resume/Kardoost_CV.pdf">CV</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="">Paper Studies</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-9">
+          <h1>Hi! I am a software developer at the <a target="_blank" class="link-dark" href="https://www.xfel.eu/">European XFEL</a> working on microscope data and studying
+            them via deep learning based approaches. Prior to this, I was a Ph.D. student at the <a target="_blank" class="link-dark" href="https://www.uni-mannheim.de/dws/">University of Mannheim</a>
+            (Data and Web Science Group) working on Video Object and Motion Segmentation. I obtained my master's degree in computer science from the <a target="_blank" class="link-dark" href="https://saarland-informatics-campus.de/en/">Saarland
+              University</a> .
+          </h1>
+        </div>
+
+        <div class="col-lg-3">
+          <img src="images/amir-1.jpg" alt="profile-photo" id="profile-photo">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="publications">
+    <h3 class="section-heading">Publications</h3>
+
+    <div class="container-fluid papers">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/paper_5.png" alt="paper-photo" class="img-thumbnail">
+        </div>
+        <div class="col-lg-8">
+          <h1 class="paper-info">Uncertainty in Minimum Cost Multicuts for Image and Motion Segmentation</h1>
+          <h1 class="paper-info"><em>Amirhossein Kardoost</em>, Margret Keuper</h1>
+          <h1 class="paper-info">UAI 2021</h1>
+          <p>
+            <a target="_blank" href="https://arxiv.org/pdf/2105.07469.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract5" aria-expanded="false" aria-controls="collapseExample">
+              abstract
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex5" aria-expanded="false" aria-controls="collapseExample">
+              bibtex
+            </button>
+          </p>
+          <div class="collapse" id="collapseAbstract5">
+            <div class="card card-body paper-abstract">
+              The minimum cost lifted multicut approach has proven practically good performance in a wide range of applications such as image decomposition, mesh segmentation, multiple object tracking, and motion segmentation. It addresses such
+              problems in a graph-based model, where real-valued costs are assigned to the edges between entities such that the minimum cut decomposes the graph into an optimal number of segments. Driven by a probabilistic formulation of minimum cost
+              multicuts, we provide a measure for the uncertainties of the decisions made during the optimization. We argue that access to such uncertainties is crucial for many practical applications and conduct an evaluation by means of
+              sparsifications on three different, widely used datasets in the context of image decomposition (BSDS-500) and motion segmentation (DAVIS2016 and FBMS59) in terms of variation of information (VI) and Rand index (RI).
+            </div>
+          </div>
+          <div class="collapse" id="collapseBibtex5">
+            <div class="card card-body">
+              @inproceedings{uncertainty_estimate, <br>
+              author = {Kardoost, Amirhossein and Keuper, Margret}, <br>
+              title = {Uncertainty in Minimum Cost Multicuts for Image and Motion Segmentation}, <br>
+              booktitle = {Uncertainty in Artificial Intelligence (UAI)}, <br>
+              year = {2021} <br>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid papers">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/paper_3.png" alt="paper-photo" class="img-thumbnail">
+        </div>
+        <div class="col-lg-8">
+          <h1 class="paper-info">Self-supervised Sparse to Dense Motion Segmentation</h1>
+          <h1 class="paper-info"><em>Amirhossein Kardoost</em>, Kalun Ho, Peter Ochs, Margret Keuper</h1>
+          <h1 class="paper-info">ACCV 2020</h1>
+          <p>
+            <a target="_blank" href="https://openaccess.thecvf.com/content/ACCV2020/papers/Kardoost_Self-supervised_Sparse_to_Dense_Motion_Segmentation_ACCV_2020_paper.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract3" aria-expanded="false" aria-controls="collapseExample">
+              abstract
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex3" aria-expanded="false" aria-controls="collapseExample">
+              bibtex
+            </button>
+          </p>
+          <div class="collapse" id="collapseAbstract3">
+            <div class="card card-body paper-abstract">
+              Observable motion in videos can give rise to the definition of objects moving with respect to the scene. The task of segmenting such moving objects is referred to as motion segmentationand is usually tackled either by aggregating motion
+              information in long, sparse point trajectories, or by directly producing per frame dense segmentations relying on large amounts of training data.In this paper, we propose a self supervised method to learn the densification of sparse
+              motion segmentations from single video frames. While previous approaches towards motion segmentation build upon pre-training on large surrogate datasets and use dense motion information as an essential cue for the pixelwise
+              segmentation, our model does not require pre-training and operates at test time on single frames. It can be trained in a sequence specific way to produce high quality dense segmentations from sparse and noisy input. We evaluate our
+              method on the well-known motion segmentation datasets FBMS59 and DAVIS2016.
+            </div>
+          </div>
+          <div class="collapse" id="collapseBibtex3">
+            <div class="card card-body">
+              @inproceedings{Kardoost_2020_ACCV, <br>
+              author = {Kardoost, Amirhossein and Ho, Kalun and Ochs, Peter and Keuper, Margret}, <br>
+              title = {Self-supervised Sparse to Dense Motion Segmentation}, <br>
+              booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)}, <br>
+              month = {November}, <br>
+              year = {2020} <br>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid papers">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/paper_4.png" alt="paper-photo" class="img-thumbnail">
+        </div>
+        <div class="col-lg-8">
+          <h1 class="paper-info">A Two-Stage Minimum Cost Multicut Approach to Self-Supervised Multiple Person Tracking</h1>
+          <h1 class="paper-info">Kalun Ho, <em>Amirhossein Kardoost</em>, Franz-Josef Pfreundt, Janis Keuper, Margret Keuper</h1>
+          <h1 class="paper-info">ACCV 2020</h1>
+          <p>
+            <a target="_blank" href="https://openaccess.thecvf.com/content/ACCV2020/papers/Ho_A_Two-Stage_Minimum_Cost_Multicut_Approach_to_Self-Supervised_Multiple_Person_ACCV_2020_paper.pdf" class="btn btn-primary" role="button"
+              aria-pressed="true">pdf</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract4" aria-expanded="false" aria-controls="collapseExample">
+              abstract
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex4" aria-expanded="false" aria-controls="collapseExample">
+              bibtex
+            </button>
+          </p>
+          <div class="collapse" id="collapseAbstract4">
+            <div class="card card-body paper-abstract">
+              Multiple Object Tracking (MOT) is a long-standing task in computer vision. Current approaches based on the tracking by detection paradigm either require some sort of domain knowledge or supervision to associate data correctly into
+              tracks. In this work, we present a self-supervised multiple object tracking approach based on visual features and minimum cost lifted multicuts. Our method is based on straight-forward spatio-temporal cues that can be extracted from
+              neighboring frames in an image sequences without supervision. Clustering based on these cues enables us to learn the required appearance invariances for the tracking task at hand and train an AutoEncoder to generate suitable latent
+              representations. Thus, the resulting latent representations can serve as robust appearance cues for tracking even over large temporal distances where no reliable spatio-temporal features can be extracted. We show that, despite being
+              trained without using the provided annotations, our model provides competitive results on the challenging MOT Benchmark for pedestrian tracking.
+            </div>
+          </div>
+          <div class="collapse" id="collapseBibtex4">
+            <div class="card card-body">
+              @inproceedings{Ho_2020_ACCV, <br>
+              author = {Ho, Kalun and Kardoost, Amirhossein and Pfreundt, Franz-Josef and Keuper, Janis and Keuper, Margret}, <br>
+              title = {A Two-Stage Minimum Cost Multicut Approach to Self-Supervised Multiple Person Tracking}, <br>
+              booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)}, <br>
+              month = {November}, <br>
+              year = {2020} <br>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid papers">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/paper_2.png" alt="paper-photo" class="img-thumbnail">
+        </div>
+        <div class="col-lg-8">
+          <h1 class="paper-info">Object Segmentation Tracking from Generic Video Cues</h1>
+          <h1 class="paper-info"><em>Amirhossein Kardoost</em>, Sabine Müller, Joachim Weickert and Margret Keuper</h1>
+          <h1 class="paper-info">ICPR 2020</h1>
+          <p>
+            <a target="_blank" href="https://arxiv.org/pdf/1910.02258.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract2" aria-expanded="false" aria-controls="collapseExample">
+              abstract
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex2" aria-expanded="false" aria-controls="collapseExample">
+              bibtex
+            </button>
+          </p>
+          <div class="collapse" id="collapseAbstract2">
+            <div class="card card-body paper-abstract">
+              We propose a light-weight variational framework for online tracking of object segmentations in videos based on optical flow and image boundaries. While high-end computer vision methods on this task rely on sequence specific training of
+              dedicated CNN architectures, we show the potential of a variational model, based on generic video information from motion and color. Such cues are usually required for tasks such as robot navigation or grasp estimation. We leverage them
+              directly for video object segmentation and thus provide accurate segmentations at potentially very low extra cost. Our simple method can provide competitive results compared to the costly CNN-based methods with parameter tuning.
+              Furthermore, we show that our approach can be combined with state-of-the-art CNN-based segmentations in order to improve over their respective results. We evaluate our method on the datasets DAVIS16,17 and SegTrack v2.
+            </div>
+          </div>
+          <div class="collapse" id="collapseBibtex2">
+            <div class="card card-body">
+              @inproceedings{obj_seg_track, <br>
+              author={Kardoost, Amirhossein and Müller, Sabine and Weickert, Joachim and Keuper, Margret}, <br>
+              booktitle={2020 25th International Conference on Pattern Recognition (ICPR)}, <br>
+              title={Object Segmentation Tracking from Generic Video Cues}, <br>
+              year={2021}, <br>
+              doi={10.1109/ICPR48806.2021.9413089} <br>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid papers">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/paper_1.png" alt="paper-photo" class="img-thumbnail">
+        </div>
+        <div class="col-lg-8">
+          <h1 class="paper-info">Solving Minimum Cost Lifted Multicut Problems by Node Agglomeration</h1>
+          <h1 class="paper-info"><em>Amirhossein Kardoost</em>, Margret Keuper</h1>
+          <h1 class="paper-info">ACCV 2018</h1>
+          <p>
+            <a target="_blank" href="https://web.informatik.uni-mannheim.de/akardoos/pdf-file/Solving_MCLMP_by_Node_Agglomeration.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract1" aria-expanded="false" aria-controls="collapseExample">
+              abstract
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex1" aria-expanded="false" aria-controls="collapseExample">
+              bibtex
+            </button>
+          </p>
+          <div class="collapse" id="collapseAbstract1">
+            <div class="card card-body paper-abstract">
+              Despite its complexity, the minimum cost lifted multicut problem has found a wide range of applications in recent years, such as image and mesh decomposition or multiple object tracking. Its solutions are decompositions of a graph into
+              an optimal number of segments which are optimized w.r.t. a cost function defined on a superset of the edge set. While the currently available solvers for this problem provide high quality solutions in terms of the task to be solved,
+              they can have long computation times for more difficult problem instances. Here, we propose two variants of a heuristic solver (primal feasible heuristic), which greedily generate solutions within a bounded amount of time. Evaluations
+              on image and mesh segmentation benchmarks show the high quality of these solutions.
+            </div>
+          </div>
+          <div class="collapse" id="collapseBibtex1">
+            <div class="card card-body">
+              @inproceedings{Kardoost_Keuper_ACCV2018, <br>
+              TITLE = {Solving Minimum Cost Lifted Multicut Problems by Node Agglomeration}, <br>
+              AUTHOR = {Kardoost, Amirhossein and Keuper, Margret}, <br>
+              YEAR = {2018}, <br>
+              BOOKTITLE = {ACCV 2018, 14th Asian Conference on Computer Vision}, <br>
+              ADDRESS = {Perth, Australia}, <br>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <p>✉ amirhossein.kardoost AT xfel.eu</p>
+      <a class="link-website" href="https://amirhk-dev.github.io/">amirhk-dev.github.io</a>
+      <div id="copyright">
+        <hr>
+        <p class="copyright-text">This is Amirhossein's personal website. © Copy freely.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
