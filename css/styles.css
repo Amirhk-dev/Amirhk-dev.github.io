@@ -34,11 +34,26 @@ h2, h3, h4, h5, h6 {
 
 .navbar {
   padding: 0% 15%;
+  z-index:2;
+}
+
+.close-navbar-toggler{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:1;
+  cursor:pointer;
+}
+
+.close-navbar-toggler.collapsed{
+  z-index:-1;
 }
 
 .navbar-brand {
   font-family: "Montserrat-Bold";
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .nav-link {
@@ -98,7 +113,7 @@ a:link {
 }
 
 .section-heading {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   padding: 0% 15%;
 }
 
