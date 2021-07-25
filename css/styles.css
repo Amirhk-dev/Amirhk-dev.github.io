@@ -34,21 +34,21 @@ h2, h3, h4, h5, h6 {
 
 .navbar {
   padding: 0% 15%;
-  z-index:2;
+  z-index: 2;
 }
 
-.close-navbar-toggler{
-  position:absolute;
-  top:0;
-  left:0;
-  height:100%;
-  width:100%;
-  z-index:1;
-  cursor:pointer;
+.close-navbar-toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  cursor: pointer;
 }
 
-.close-navbar-toggler.collapsed{
-  z-index:-1;
+.close-navbar-toggler.collapsed {
+  z-index: -1;
 }
 
 .navbar-brand {
@@ -65,9 +65,28 @@ h2, h3, h4, h5, h6 {
   padding: 0% 15%;
 }
 
-#profile-photo {
+.card {
   margin-left: 35%;
+  display: inline-block;
   border-radius: 300px;
+}
+
+.img-first {
+  border-radius: 300px;
+}
+
+.card .img-top {
+  border-radius: 300px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.card:hover .img-top {
+  border-radius: 300px;
+  display: inline;
 }
 
 a:link {
