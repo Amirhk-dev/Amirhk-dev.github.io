@@ -65,7 +65,7 @@ h2, h3, h4, h5, h6 {
   padding: 0% 15%;
 }
 
-.card {
+.card.profiles {
   margin-left: 35%;
   display: inline-block;
   border-radius: 300px;
@@ -75,7 +75,7 @@ h2, h3, h4, h5, h6 {
   border-radius: 300px;
 }
 
-.card .img-top {
+.card.profiles .img-top {
   border-radius: 300px;
   display: none;
   position: absolute;
@@ -84,7 +84,7 @@ h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-.card:hover .img-top {
+.card.profiles:hover .img-top {
   border-radius: 300px;
   display: inline;
 }
