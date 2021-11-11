@@ -106,10 +106,7 @@
           </p>
           <div class="collapse" id="collapseAbstract5">
             <div class="card card-body paper-abstract">
-              The minimum cost lifted multicut approach has proven practically good performance in a wide range of applications such as image decomposition, mesh segmentation, multiple object tracking, and motion segmentation. It addresses such
-              problems in a graph-based model, where real-valued costs are assigned to the edges between entities such that the minimum cut decomposes the graph into an optimal number of segments. Driven by a probabilistic formulation of minimum cost
-              multicuts, we provide a measure for the uncertainties of the decisions made during the optimization. We argue that access to such uncertainties is crucial for many practical applications and conduct an evaluation by means of
-              sparsifications on three different, widely used datasets in the context of image decomposition (BSDS-500) and motion segmentation (DAVIS2016 and FBMS59) in terms of variation of information (VI) and Rand index (RI).
+              The minimum cost lifted multicut approach has proven practically good performance in a wide range of applications such as image decomposition, mesh segmentation, multiple object tracking, and motion segmentation. It addresses such problems in a graph-based model, where real-valued costs are assigned to the edges between entities such that the minimum cut decomposes the graph into an optimal number of segments. Driven by a probabilistic formulation of minimum cost multicuts, we provide a measure for the uncertainties of the decisions made during the optimization. We argue that access to such uncertainties is crucial for many practical applications and conduct an evaluation by means of sparsifications on three different, widely used datasets in the context of image decomposition (BSDS-500) and motion segmentation (DAVIS2016 and FBMS59) in terms of variation of information (VI) and Rand index (RI).
             </div>
           </div>
           <div class="collapse" id="collapseBibtex5">
@@ -147,11 +144,7 @@
           </p>
           <div class="collapse" id="collapseAbstract3">
             <div class="card card-body paper-abstract">
-              Observable motion in videos can give rise to the definition of objects moving with respect to the scene. The task of segmenting such moving objects is referred to as motion segmentationand is usually tackled either by aggregating motion
-              information in long, sparse point trajectories, or by directly producing per frame dense segmentations relying on large amounts of training data.In this paper, we propose a self supervised method to learn the densification of sparse
-              motion segmentations from single video frames. While previous approaches towards motion segmentation build upon pre-training on large surrogate datasets and use dense motion information as an essential cue for the pixelwise
-              segmentation, our model does not require pre-training and operates at test time on single frames. It can be trained in a sequence specific way to produce high quality dense segmentations from sparse and noisy input. We evaluate our
-              method on the well-known motion segmentation datasets FBMS59 and DAVIS2016.
+              Observable motion in videos can give rise to the definition of objects moving with respect to the scene. The task of segmenting such moving objects is referred to as motion segmentation and is usually tackled either by aggregating motion information in long, sparse point trajectories, or by directly producing per frame dense segmentations relying on large amounts of training data. In this paper, we propose a self supervised method to learn the densification of sparse motion segmentations from single video frames. While previous approaches towards motion segmentation build upon pre-training on large surrogate datasets and use dense motion information as an essential cue for the pixelwise segmentation, our model does not require pre-training and operates at test time on single frames. It can be trained in a sequence specific way to produce high quality dense segmentations from sparse and noisy input. We evaluate our method on the well-known motion segmentation datasets FBMS59 and DAVIS2016.
             </div>
           </div>
           <div class="collapse" id="collapseBibtex3">
@@ -190,11 +183,7 @@
           </p>
           <div class="collapse" id="collapseAbstract4">
             <div class="card card-body paper-abstract">
-              Multiple Object Tracking (MOT) is a long-standing task in computer vision. Current approaches based on the tracking by detection paradigm either require some sort of domain knowledge or supervision to associate data correctly into
-              tracks. In this work, we present a self-supervised multiple object tracking approach based on visual features and minimum cost lifted multicuts. Our method is based on straight-forward spatio-temporal cues that can be extracted from
-              neighboring frames in an image sequences without supervision. Clustering based on these cues enables us to learn the required appearance invariances for the tracking task at hand and train an AutoEncoder to generate suitable latent
-              representations. Thus, the resulting latent representations can serve as robust appearance cues for tracking even over large temporal distances where no reliable spatio-temporal features can be extracted. We show that, despite being
-              trained without using the provided annotations, our model provides competitive results on the challenging MOT Benchmark for pedestrian tracking.
+              Multiple Object Tracking (MOT) is a long-standing task in computer vision. Current approaches based on the tracking by detection paradigm either require some sort of domain knowledge or supervision to associate data correctly into tracks. In this work, we present a self-supervised multiple object tracking approach based on visual features and minimum cost lifted multicuts. Our method is based on straight-forward spatio-temporal cues that can be extracted from neighboring frames in an image sequences without supervision. Clustering based on these cues enables us to learn the required appearance invariances for the tracking task at hand and train an AutoEncoder to generate suitable latent representations. Thus, the resulting latent representations can serve as robust appearance cues for tracking even over large temporal distances where no reliable spatio-temporal features can be extracted. We show that, despite being trained without using the provided annotations, our model provides competitive results on the challenging MOT Benchmark for pedestrian tracking.
             </div>
           </div>
           <div class="collapse" id="collapseBibtex4">
@@ -233,10 +222,7 @@
           </p>
           <div class="collapse" id="collapseAbstract2">
             <div class="card card-body paper-abstract">
-              We propose a light-weight variational framework for online tracking of object segmentations in videos based on optical flow and image boundaries. While high-end computer vision methods on this task rely on sequence specific training of
-              dedicated CNN architectures, we show the potential of a variational model, based on generic video information from motion and color. Such cues are usually required for tasks such as robot navigation or grasp estimation. We leverage them
-              directly for video object segmentation and thus provide accurate segmentations at potentially very low extra cost. Our simple method can provide competitive results compared to the costly CNN-based methods with parameter tuning.
-              Furthermore, we show that our approach can be combined with state-of-the-art CNN-based segmentations in order to improve over their respective results. We evaluate our method on the datasets DAVIS16,17 and SegTrack v2.
+              We propose a light-weight variational framework for online tracking of object segmentations in videos based on optical flow and image boundaries. While high-end computer vision methods on this task rely on sequence specific training of dedicated CNN architectures, we show the potential of a variational model, based on generic video information from motion and color. Such cues are usually required for tasks such as robot navigation or grasp estimation. We leverage them directly for video object segmentation and thus provide accurate segmentations at potentially very low extra cost. Our simple method can provide competitive results compared to the costly CNN-based methods with parameter tuning. Furthermore, we show that our approach can be combined with state-of-the-art CNN-based segmentations in order to improve over their respective results. We evaluate our method on the datasets DAVIS16,17 and SegTrack v2.
             </div>
           </div>
           <div class="collapse" id="collapseBibtex2">
@@ -274,10 +260,7 @@
           </p>
           <div class="collapse" id="collapseAbstract1">
             <div class="card card-body paper-abstract">
-              Despite its complexity, the minimum cost lifted multicut problem has found a wide range of applications in recent years, such as image and mesh decomposition or multiple object tracking. Its solutions are decompositions of a graph into
-              an optimal number of segments which are optimized w.r.t. a cost function defined on a superset of the edge set. While the currently available solvers for this problem provide high quality solutions in terms of the task to be solved,
-              they can have long computation times for more difficult problem instances. Here, we propose two variants of a heuristic solver (primal feasible heuristic), which greedily generate solutions within a bounded amount of time. Evaluations
-              on image and mesh segmentation benchmarks show the high quality of these solutions.
+              Despite its complexity, the minimum cost lifted multicut problem has found a wide range of applications in recent years, such as image and mesh decomposition or multiple object tracking. Its solutions are decompositions of a graph into an optimal number of segments which are optimized w.r.t. a cost function defined on a superset of the edge set. While the currently available solvers for this problem provide high quality solutions in terms of the task to be solved, they can have long computation times for more difficult problem instances. Here, we propose two variants of a heuristic solver (primal feasible heuristic), which greedily generate solutions within a bounded amount of time. Evaluations on image and mesh segmentation benchmarks show the high quality of these solutions.
             </div>
           </div>
           <div class="collapse" id="collapseBibtex1">
@@ -300,7 +283,6 @@
   <footer class="white-section" id="footer">
     <div class="container-fluid">
       <p id="contact-info-1">✉ amirhossein.kardoost AT xfel.eu</p>
-      <p id="contact-info-2">✉ amirhossein.kardoost AT desy.de</p>
       <a class="link-website" href="https://amirhk-dev.github.io/">amirhk-dev.github.io</a>
       <div id="copyright">
         <hr>
