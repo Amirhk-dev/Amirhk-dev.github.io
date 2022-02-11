@@ -29,7 +29,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .container-fluid.papers {
-  padding: 5% 0%;
+  padding: 1% 0%;
 }
 
 .navbar {
@@ -137,11 +137,11 @@ a:link {
 
 .section-heading {
   font-size: 2.0rem;
-  padding: 0% 15%;
+  padding: 0% 10%;
 }
 
 .subsection-heading {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding: 0% 5%;
 }
 em {
