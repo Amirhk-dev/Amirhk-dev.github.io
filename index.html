@@ -78,23 +78,51 @@
           </div>
         </div>
       </div>
-
     </div>
-
-    <div class="container-fluid papers">
-      <h3 class="section-heading">News</h3>
-      <div class="row">
-        <h1 class="paper-info">January 2022 - Our paper "Higher-Order Multicuts for Geometric Model Fitting and Motion Segmentation" is accepted in</h1>
-        <h1 class="paper-info">IEEE Transactions on Pattern Analysis and Machine Intelligence <a target="_blank" class="link-dark" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"> (TPAMI)</a> Journal.</h1>
-        <h1 class="paper-info">Authors: <em>Evgeny Levinkov</em>, <em>Amirhossein Kardoost</em>, Bjoern Andres, Margret Keuper</h1>
-      </div>
-    </div>
-
   </section>
 
   <section id="publications">
     <h3 class="section-heading">Publications</h3>
+    <h3 class="subsection-heading">Journal Article</h3>
+    <div class="container-fluid papers">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/paper_6.png" alt="paper-photo" class="img-thumbnail">
+        </div>
+        <div class="col-lg-8">
+          <h1 class="paper-info">Higher-Order Multicuts for Geometric Model Fitting and Motion Segmentation</h1>
+          <h1 class="paper-info">Evgeny Levinkov, <em>Amirhossein Kardoost</em>, Bjoern Andres, Margret Keuper</h1>
+          <h1 class="paper-info">TPAMI</h1>
+          <p>
+            <a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9706260" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract5" aria-expanded="false" aria-controls="collapseExample">
+              abstract
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex5" aria-expanded="false" aria-controls="collapseExample">
+              bibtex
+            </button>
+          </p>
+          <div class="collapse" id="collapseAbstract5">
+            <div class="card card-body paper-abstract">
+              The minimum cost lifted multicut problem is a generalization of the multicut problem (also known as correlation clustering) and is a means to optimizing a decomposition of a graph w.r.t. both positive and negative edge costs. It has been shown to be useful in a large variety of applications in computer vision thanks to the fact that multicut-based formulations do not require the number of components given a priori; instead, it is deduced from the solution. However, the standard multicut cost function is limited to pairwise relationships between nodes, while several important applications either require or can benefit from a higher-order cost function, i.e. hyper-edges. In this paper, we propose a pseudo-boolean formulation for a multiple model fitting problem. It is based on a formulation of any-order minimum cost lifted multicuts, which allows to partition an undirected graph with pairwise connectivity such as to minimize costs defined over any set of hyper-edges. As the proposed formulation is NP-hard and the branch-and-bound algorithm (as well as obtaining lower bounds) is too slow in practice, we propose an efficient local search algorithm for inference into resulting problems. We demonstrate versatility and effectiveness of our approach in several applications: 1) We define a geometric multiple model fitting, more specifically, a line fitting problem on all triplets of points and group points, that belong to the same line, together. 2) We formulate homography and motion estimation as a geometric model fitting problem where the task is to find groups of points that can be explained by the same geometrical transformation. 3) In motion segmentation our model allows to go from modeling translational motion to Euclidean or affine transformations, which improves the segmentation quality in terms of F-measure.
+            </div>
+          </div>
+          <div class="collapse" id="collapseBibtex5">
+            <div class="card card-body">
+              @article{kardoost_tpami_2022, <br>
+                author = {Levinkov, Evgeny and Kardoost, Amirhossein and Andres, Bjoern and Keuper, Margret}, <br>
+                journal = {Transactions on Pattern Analysis and Machine Intelligence (TPAMI)}, <br> 
+                title = {Higher-Order Multicuts for Geometric Model Fitting and Motion Segmentation}, <br> 
+                year = {2022}, <br>
+                doi={10.1109/TPAMI.2022.3148795} <br>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <h3 class="subsection-heading">Conference Articles</h3>
     <div class="container-fluid papers">
       <div class="row">
         <div class="col-lg-4">
@@ -120,7 +148,7 @@
           </div>
           <div class="collapse" id="collapseBibtex5">
             <div class="card card-body">
-              @inproceedings{uncertainty_estimate, <br>
+              @inproceedings{kardoost_uai_2021, <br>
               author = {Kardoost, Amirhossein and Keuper, Margret}, <br>
               title = {Uncertainty in Minimum Cost Multicuts for Image and Motion Segmentation}, <br>
               booktitle = {Uncertainty in Artificial Intelligence (UAI)}, <br>
@@ -158,7 +186,7 @@
           </div>
           <div class="collapse" id="collapseBibtex3">
             <div class="card card-body">
-              @inproceedings{Kardoost_2020_ACCV, <br>
+              @inproceedings{kardoost_accv_2020_a, <br>
               author = {Kardoost, Amirhossein and Ho, Kalun and Ochs, Peter and Keuper, Margret}, <br>
               title = {Self-supervised Sparse to Dense Motion Segmentation}, <br>
               booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)}, <br>
@@ -197,7 +225,7 @@
           </div>
           <div class="collapse" id="collapseBibtex4">
             <div class="card card-body">
-              @inproceedings{Ho_2020_ACCV, <br>
+              @inproceedings{kardoost_accv_2020_b, <br>
               author = {Ho, Kalun and Kardoost, Amirhossein and Pfreundt, Franz-Josef and Keuper, Janis and Keuper, Margret}, <br>
               title = {A Two-Stage Minimum Cost Multicut Approach to Self-Supervised Multiple Person Tracking}, <br>
               booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)}, <br>
@@ -236,7 +264,7 @@
           </div>
           <div class="collapse" id="collapseBibtex2">
             <div class="card card-body">
-              @inproceedings{obj_seg_track, <br>
+              @inproceedings{kardoost_icpr_2021, <br>
               author={Kardoost, Amirhossein and Müller, Sabine and Weickert, Joachim and Keuper, Margret}, <br>
               booktitle={2020 25th International Conference on Pattern Recognition (ICPR)}, <br>
               title={Object Segmentation Tracking from Generic Video Cues}, <br>
@@ -274,7 +302,7 @@
           </div>
           <div class="collapse" id="collapseBibtex1">
             <div class="card card-body">
-              @inproceedings{Kardoost_Keuper_ACCV2018, <br>
+              @inproceedings{kardoost_accv_2018, <br>
               TITLE = {Solving Minimum Cost Lifted Multicut Problems by Node Agglomeration}, <br>
               AUTHOR = {Kardoost, Amirhossein and Keuper, Margret}, <br>
               YEAR = {2018}, <br>
@@ -287,6 +315,45 @@
       </div>
     </div>
 
+    <h3 class="subsection-heading">Technical Reports</h3>
+    <div class="container-fluid papers">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/paper_7.png" alt="paper-photo" class="img-thumbnail">
+        </div>
+        <div class="col-lg-8">
+          <h1 class="paper-info">Optimizing Edge Detection for Image Segmentation with Multicut Penalties</h1>
+          <h1 class="paper-info">Steffen Jung, Sebastian Ziegler, <em>Amirhossein Kardoost</em>, Margret Keuper</h1>
+          <h1 class="paper-info">arXiv</h1>
+          <p>
+            <a target="_blank" href="https://arxiv.org/pdf/2112.05416.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract1" aria-expanded="false" aria-controls="collapseExample">
+              abstract
+            </button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex1" aria-expanded="false" aria-controls="collapseExample">
+              bibtex
+            </button>
+          </p>
+          <div class="collapse" id="collapseAbstract1">
+            <div class="card card-body paper-abstract">
+              The Minimum Cost Multicut Problem (MP) is a popular way for obtaining a graph decomposition by optimizing binary edge labels over edge costs. While the formulation of a MP from independently estimated costs per edge is highly flexible and intuitive, solving the MP is NP-hard and time-expensive. As a remedy, recent work proposed to predict edge probabilities with awareness to potential conflicts by incorporating cycle constraints in the prediction process. We argue that such formulation, while providing a first step towards end-to-end learnable edge weights, is suboptimal, since it is built upon a loose relaxation of the MP. We therefore propose an adaptive CRF that allows to progressively consider more violated constraints and, in consequence, to issue solutions with higher validity. Experiments on the BSDS500 benchmark for natural image segmentation as well as on electron microscopic recordings show that our approach yields more precise edge detection and image segmentation
+            </div>
+          </div>
+          <div class="collapse" id="collapseBibtex1">
+            <div class="card card-body">
+              @article{DBLP:journals/corr/abs-2112-05416, <br>
+                author    = {Jung, Steffen and Ziegler, Sebastian and Kardoost, Amirhossein and Keuper, Margret}, <br>
+                title     = {Optimizing Edge Detection for Image Segmentation with Multicut Penalties}, <br>
+                journal   = {CoRR}, <br>
+                volume    = {abs/2112.05416}, <br>
+                year      = {2021}, <br>
+                url       = {https://arxiv.org/abs/2112.05416} <br>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <footer class="white-section" id="footer">
