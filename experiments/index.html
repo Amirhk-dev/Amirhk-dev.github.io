@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ms-auto">
             <li class="navbar-item">
-              <a class="nav-link" href="#self-supervised">Papers</a>
+              <a class="nav-link" href="#experiments">Experiments</a>
             </li>
           </ul>
         </div>
@@ -51,30 +51,14 @@
 
   <section id="papers-studied">
     <div class="container-fluid">
-      <h3 class="subsection-heading-papers" id="self-supervised">Self Supervised</h3>  
       <div class="row">
         <div class="card">
             <div class="card-body">
-              <h5 class="card-title">VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Adrien Bardes, Jean Ponce, and Yann LeCun, ICLR 2022</h6>
-              <p class="card-text paper-info">The advantage of using self-supervised learning is that is does not require the human made labels for the inputs. 
-                  To train such models, the pair of similar images are given to the Siamese network so that their representation are similar. This is the same for
-                  human eye, black and white or the color image of one specific object would not change its meaning. The Siamese networks suffer from the mode collapse 
-                  where the two branches can learn to produce constant and identical output vectors. With this they satisfy the similarity condition without learning 
-                  anything useful. There are different approaches to train such models, either by making asymmetric networks, momentum encoders, or utilizing the 
-                  contrastive loss function by pushing away non-similar inputs. 
-                  <br>
-                  <br>
-                  In this paper, the authors suggest that any of the changes are not required and all 
-                  depends on the proper definition of the loss function. The loss function contains three terms, variance term, invariance term, and covariance term. 
-                  <br>
-                  <br>
-                  The variance term discourages the mode collapse by maximizing the variance along the batch dimension for every embedding dimension. The invariance term
-                  is a similarity metric which needs to be minimized between the similar inputs. The covariance term makes the covariance matrix of the embeddings to be as 
-                  close to the diagonal as possible. With this term, the model is encouraged to spread the information over the embedding dimension. The authors provide the 
-                  code as well to experiment on the CIFAR-10 dataset. </p>
-              <a target="_blank" href="https://arxiv.org/pdf/2105.04906.pdf" class="card-link">Paper</a>
-              <a target="_blank" href="https://colab.research.google.com/drive/1Bi-nbAbwFpEUOxfM1qXfOOeigE7Ur2F_?usp=sharing" class="card-link">Colab Code</a>
+              <h5 class="card-title">GPT (Generative Pre-trained Transformer)</h5>
+              <h6>The goal is to generate similar texts to Persian poem (Divan-e-Hafez) and Shakespeare.</h6>              
+              <a href="https://colab.research.google.com/github/Amirhk-dev/MNIST-Lab/blob/main/experiments/notebooks/transformers/GPT_Dev_Text_Generate.ipynb">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+              </a>
             </div>
         </div>
       </div>
