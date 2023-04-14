@@ -99,11 +99,11 @@ a:link {
 }
 
 .link-dark {
-  color: gray;
+  color: black;
 }
 
 .link-dark:hover {
-  color: black;
+  color: gray;
 }
 
 .link-website {
