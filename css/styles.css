@@ -92,6 +92,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .card.profiles .img-top {
+  max-width: 100%;
   border-radius: 300px;
   display: none;
   position: absolute;
@@ -101,6 +102,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .card.profiles:hover .img-top {
+  max-width: 100%;
   border-radius: 300px;
   display: inline;
 }
