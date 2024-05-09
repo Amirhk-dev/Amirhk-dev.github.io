@@ -18,12 +18,6 @@ h1 {
   hyphens: auto;
 }
 
-@media (max-width: 600px) {
-  h1 {
-    text-align: left;
-  }
-}
-
 a {
   font-family: "Montserrat Extra-light 200";
 }
@@ -84,12 +78,6 @@ h2, h3, h4, h5, h6 {
 
 .row {
   padding: 0% 10%;
-}
-
-@media (max-width: 978px) {
-  .row {
-    padding: 10% 10%;
-  }
 }
 
 .btn {
@@ -159,6 +147,7 @@ p.card-text.paper-info {
   padding: 2% 0%;
   text-align: justify;
 }
+
 .paper-name {
   font-family: "Montserrat Extra-light 200";
   padding: 0% 0% 0% 15%;
@@ -206,7 +195,6 @@ em {
   font-size: 1.5rem;
 }
 
-
 .white-section {
   background-color: #fff;
 }
@@ -231,4 +219,84 @@ em {
 .card {
   font-family: "Montserrat Extra-light 200";
   font-size: 1.3rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .copyright-text {
+    font-size: 0.7rem;
+  }
+  
+  .card {
+    font-family: "Montserrat Extra-light 200";
+    font-size: 1.0rem;
+  }
+
+  .paper-info {
+    font-size: 1.2rem;
+  }
+  
+  .paper-name {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .paper-authors {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .paper-conf {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 1.2rem;
+  }
+  
+  .subsection-heading {
+    font-size: 1.2rem;
+  }
+  
+  .subsection-heading-papers {
+    font-size: 1.2rem;
+  }
+
+  .paper-abstract {
+    font-size: 1.1rem;
+  
+  }
+  
+  .card-link {
+    font-size: 1.1rem;
+  }
+
+  .link-website {
+    font-size: 1.1rem;
+  }
+  
+  .btn {
+    font-size: 1.0rem;;
+  }
+
+  .row {
+    padding: 10% 10%;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
