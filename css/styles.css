@@ -5,7 +5,7 @@ body {
 
 h1 {
   font-family: "Montserrat Extra-light 200";
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: justify;
 }
@@ -16,12 +16,12 @@ a {
 
 p {
   font-family: "Montserrat Extra-light 200";
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .container-fluid {
@@ -57,13 +57,15 @@ h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
+  font-family: "Montserrat Extra-light 200";
   font-family: "Montserrat-Bold";
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .nav-link {
+  font-family: "Montserrat Extra-light 200";
   font-family: "Montserrat-Bold";
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .row {
@@ -77,7 +79,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  font-size: 1.5rem;;
+  font-size: 1.3rem;;
 }
 
 .card.profiles {
@@ -120,7 +122,7 @@ a:link {
 }
 
 .link-website {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: black;
 }
 
@@ -129,11 +131,14 @@ a:link {
 }
 
 .paper-abstract {
+  font-family: "Montserrat Extra-light 200";
   text-align: justify;
+  font-size: 1.4rem;
+
 }
 
 .card-link {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 p.card-text.paper-info {
@@ -157,22 +162,22 @@ p.card-text.paper-info {
 .paper-conf {
   padding: 0% 0% 0% 15%;
   font-family: "Montserrat Extra-light 200";
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2.0;
 }
 
 .section-heading {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding: 0% 10%;
 }
 
 .subsection-heading {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding: 0% 10%;
 }
 
 .subsection-heading-papers {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding: 0% 10%;
 }
 
@@ -210,5 +215,6 @@ em {
 }
 
 .card {
+  font-family: "Montserrat Extra-light 200";
   font-size: 1.3rem;
 }
