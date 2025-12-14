@@ -1,428 +1,498 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amirhossein's Website</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amirhossein (Nolan) Kardoost</title>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
 
-  <!-- Font-awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-  <!-- bootstrap css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- bootstrap javascript -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <section id="title">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-blur">
+    <div class="container-xl px-3">
+      <a class="navbar-brand brand" href="#top">
+        <span class="brand-dot"></span> Amirhossein (Nolan) Kardoost
+      </a>
 
-    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+        aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <!-- Nav Bar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="">Amirhossein Kardoost</a>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/amirhossein-kardoost-72911257/">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Amirhk-dev">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" rel="noopener noreferrer"
+              href="https://scholar.google.com/citations?user=55umfgIAAAAJ&hl=en">Scholar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto">
-            <li class="navbar-item">
-              <a class="nav-link" href="#contact-info">Contact</a>
-            </li>
-            <li class="navbar-item">
-              <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/amirhossein-kardoost-72911257/">LinkedIn</a>
-            </li>
-            <li>
-              <a target="_blank" class="nav-link" href="https://github.com/Amirhk-dev">GitHub</a>
-            </li>
-            <li class="navbar-item">
-              <a target="_blank" class="nav-link" href="https://scholar.google.com/citations?user=55umfgIAAAAJ&hl=en">Google Scholar</a>
-            </li>
-            <li class="navbar-item">
-              <a class="nav-link" href="#publications">Publications</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <!-- Title -->
-
-      <div class="row">
+  <header id="top" class="hero">
+    <div class="container-xl px-3">
+      <div class="row g-4 align-items-center">
         <div class="col-lg-8">
-          <h1>
-            Welcome to my personal website! My name is Amirhossein (Amir), and I am currently a postdoctoral
-            researcher at <a target="_blank" class="link-dark" href="https://www.helmholtz-munich.de/en/aih">Helmholtz Munich</a>'s Institute of AI for Health.
-            
-            <br>
-            <br>
+          <div class="kicker">Postdoctoral Researcher @ AI for Health</div>
 
-            My research interests lie in semi-supervised and self-supervised instance segmentation methods, particularly for analyzing dynamic natural scenes and 3D microscopic
-            imaging data, such as brightfield and fluorescence z-stack images.
-            Presently, I contribute to projects like <a target="_blank" class="link-dark" href="https://www.perinatal-immunity.de/en">"Perinatal Development of Immune Cell Topology"</a> and
-            Neural Cell Fate Prediction within <a target="_blank" class="link-dark" href="https://en.wikipedia.org/wiki/Neurogenesis">"Neurogenesis".</a>
-            Previously, I worked as a software engineer at the <a target="_blank" class="link-dark" href="https://www.xfel.eu/">European X-ray Free Electron Laser (EuXFEL)</a>,
-            where I implemented pipelines for solid sample scanning and contributed to the analysis and segmentation of microscopic image data.
-            
-            <br>
-            <br>
+          <p class="hero-lead">
+            Hi — I'm Amirhossein (Nolan), a postdoctoral researcher at
+            <a class="link-accent" target="_blank" rel="noopener noreferrer"
+              href="https://www.helmholtz-munich.de/en/aih">Helmholtz Munich</a>,
+            Institute of AI for Health.
+            My research focuses on semi- and self-supervised segmentation of object instances in time-lapse natural
+            or 3D microscopic images (fluorescence Z-stacks and brightfield).
+          </p>
 
-            I earned my Ph.D. in Computer Science from the <a target="_blank" class="link-dark" href="https://www.vsa.informatik.uni-siegen.de/">University of Siegen</a> under
-            the supervision of <a target="_blank" class="link-dark" href="https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/">Prof. Dr.-Ing. Margret Keuper
-            </a>, focusing on instance segmentation and motion pattern analysis in video sequences.
-            I also hold a master's degree in Computer Science from <a target="_blank" class="link-dark" href="https://saarland-informatics-campus.de/en/">Saarland University</a>.
-            Additionally, I actively contribute to the scientific community as a reviewer for leading computer vision conferences, including CVPR, ICCV, and ECCV.            
-          </h1>
+          <p class="hero-lead">
+            I'm involved in the
+            <a class="link-accent" target="_blank" rel="noopener noreferrer"
+              href="https://www.perinatal-immunity.de/en">Perinatal Development of Immune Cell Topology</a>
+            and Neural Cell Fate Prediction within
+            <a class="link-accent" target="_blank" rel="noopener noreferrer"
+              href="https://en.wikipedia.org/wiki/Neurogenesis">Neurogenesis</a> projects.
+            Previously, I was a software engineer at
+            <a class="link-accent" target="_blank" rel="noopener noreferrer" href="https://www.xfel.eu/">EuXFEL</a>.
+          </p>
+
+          <p class="hero-lead">
+            I received my Ph.D. in computer science (with a focus on computer vision) from the
+            <a class="link-accent" target="_blank" rel="noopener noreferrer"
+              href="https://www.vsa.informatik.uni-siegen.de/">University of Siegen</a>, supervised by
+            <a class="link-accent" target="_blank" rel="noopener noreferrer"
+              href="https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/">
+              Prof. Dr.-Ing. Margret Keuper
+            </a>.
+            My doctoral research focused on object instance and motion pattern segmentation in videos.
+            I obtained my master's degree in computer science from
+            <a class="link-accent" target="_blank" rel="noopener noreferrer"
+              href="https://saarland-informatics-campus.de/en/">Saarland University</a>.
+            I am particularly interested in building practical software systems that enable biologists
+            to apply modern machine learning methods to microscopy image analysis.
+            I have also served as a reviewer for several conferences such as CVPR, ICCV, and ECCV.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#publications">See publications</a>
+            <a class="btn btn-outline-light btn-lg" target="_blank" rel="noopener noreferrer"
+              href="https://amirhk-dev.github.io/">Website</a>
+          </div>
+
+          <div class="mini-meta">
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Microscopy</span>
+            <span class="tag">Self-Supervised Learning</span>
+            <span class="tag">Instance Segmentation</span>
+          </div>
         </div>
 
         <div class="col-lg-4">
-          <div class="card profiles">
-            <img src="images/amir-image-1.jpg" alt="profile photo" class="img-first">
-            <img src="images/amir-image-2.jpg" class="img-top" alt="profile photo">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="publications">
-    <h3 class="section-heading">Publications</h3><br>
-    <h3 class="subsection-heading">Journal Articles</h3>
-    
-    <div class="container-fluid papers">
-      <div class="row">
-        <div class="col-lg-5">
-          <img src="images/paper_6.png" alt="paper-photo" class="img-thumbnail">
-        </div>
-        <div class="col-lg-7">
-          <h1 class="paper-info">Higher-Order Multicuts for Geometric Model Fitting and Motion Segmentation</h1>
-          <h1 class="paper-info">Evgeny Levinkov*, <strong>Amirhossein Kardoost*</strong>, Bjoern Andres, Margret Keuper</h1>
-          <h1 class="paper-info">(* Contributed equally)</h1>
-          <h1 class="paper-info">TPAMI 2022</h1>
-          <p>
-            <a target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9706260" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract6" aria-expanded="false" aria-controls="collapseExample">
-              abstract
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex6" aria-expanded="false" aria-controls="collapseExample">
-              bibtex
-            </button>
-          </p>
-          <div class="collapse" id="collapseAbstract6">
-            <div class="card card-body paper-abstract">
-              The minimum cost lifted multicut problem is a generalization of the multicut problem (also known as correlation clustering) and is a means to optimizing a decomposition of a graph w.r.t. both positive and negative edge costs. It has been shown to be useful in a large variety of applications in computer vision thanks to the fact that multicut-based formulations do not require the number of components given a priori; instead, it is deduced from the solution. However, the standard multicut cost function is limited to pairwise relationships between nodes, while several important applications either require or can benefit from a higher-order cost function, i.e. hyper-edges. In this paper, we propose a pseudo-boolean formulation for a multiple model fitting problem. It is based on a formulation of any-order minimum cost lifted multicuts, which allows to partition an undirected graph with pairwise connectivity such as to minimize costs defined over any set of hyper-edges. As the proposed formulation is NP-hard and the branch-and-bound algorithm (as well as obtaining lower bounds) is too slow in practice, we propose an efficient local search algorithm for inference into resulting problems. We demonstrate versatility and effectiveness of our approach in several applications: 1) We define a geometric multiple model fitting, more specifically, a line fitting problem on all triplets of points and group points, that belong to the same line, together. 2) We formulate homography and motion estimation as a geometric model fitting problem where the task is to find groups of points that can be explained by the same geometrical transformation. 3) In motion segmentation our model allows to go from modeling translational motion to Euclidean or affine transformations, which improves the segmentation quality in terms of F-measure.
+          <div class="profile-card">
+            <div class="profile-inner">
+              <img src="images/amir-image-1.jpg" alt="Amirhossein Kardoost portrait" class="profile-img base">
+              <img src="images/amir-image-2.jpg" alt="Amirhossein Kardoost portrait (alt)" class="profile-img hover">
             </div>
-          </div>
-          <div class="collapse" id="collapseBibtex6">
-            <div class="card card-body">
-              @article{kardoost_tpami_2022, <br>
-                author = {Levinkov, Evgeny and Kardoost, Amirhossein and Andres, Bjoern and Keuper, Margret}, <br>
-                journal = {Transactions on Pattern Analysis and Machine Intelligence (TPAMI)}, <br>
-                title = {Higher-Order Multicuts for Geometric Model Fitting and Motion Segmentation}, <br>
-                year = {2022}, <br>
-                doi={10.1109/TPAMI.2022.3148795} <br>
-              }
+            <div class="profile-caption">
+              <span class="dot">·</span> Munich, Germany
             </div>
           </div>
         </div>
       </div>
     </div>
+  </header>
 
-    <div class="container-fluid papers">
-      <div class="row">
-        <div class="col-lg-5">
-          <img src="images/paper_8.png" alt="paper-photo" class="img-thumbnail">
-        </div>
-        <div class="col-lg-7">
-          <h1 class="paper-info">Convolutional Neural Network Approach for the Automated Identification of in Cellulo Crystals</h1>
-          <h1 class="paper-info"><strong>Amirhossein Kardoost</strong>, Robert Schönherr, Carsten Deiter, Lars Redecke, Kristina Lorenzen, Joachim Schulz, Iñaki de Diego</h1>
-          <h1 class="paper-info">Journal of Applied Crystallography 2024</h1>
-          <p>
-            <a target="_blank" href="https://journals.iucr.org/j/issues/2024/02/00/jo5091/jo5091.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract7" aria-expanded="false" aria-controls="collapseExample">
-              abstract
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex7" aria-expanded="false" aria-controls="collapseExample">
-              bibtex
-            </button>
-            <a target="_blank" href="https://github.com/Amirhk-dev/Convolutional-Neural-Network-Approach-for-the-Automated-Identification-of-in-Cellulo-Crystals" class="btn btn-primary" role="button" aria-pressed="true">code</a>
-            <a target="_blank" href="https://zenodo.org/records/10475962" class="btn btn-primary" role="button" aria-pressed="true">data</a>
-          </p>
-          <div class="collapse" id="collapseAbstract7">
-            <div class="card card-body paper-abstract">
-              In cellulo crystallization is a rare event in nature. Recent advances that have made use of heterologous overexpression can promote the intracellular formation of protein crystals, but new tools are required to detect and characterize these targets in the complex cell environment. The present work makes use of Mask R-CNN, a convolutional neural network (CNN)-based instance segmentation method, for the identification of either single or multi-shaped crystals growing in living insect cells, using conventional bright field images. The algorithm can be rapidly adapted to recognize different targets, with the aim of extracting relevant information to support a semi-automated screening pipeline, in order to aid the development of the intracellular protein crystallization approach.
-            </div>
-          </div>
-          <div class="collapse" id="collapseBibtex7">
-            <div class="card card-body">
-              @article {Kardoost_2024, <br>
-                author = {Amirhossein Kardoost and Robert Sch{\"o}nherr and Carsten Deiter and Lars Redecke and Kristina Lorenzen and Joachim Schulz and I{\~n}aki de Diego}, <br>
-                title = {Convolutional neural network approach for the automated identification of in cellulo crystals}, <br>
-                year = {2024}, <br>
-                volume = {57}, <br>
-                doi = {10.1107/S1600576724000682}, <br>
-                publisher = {IUCR/Wiley}, <br>
-                journal = {Journal of Applied Crystallography} <br>
-              }
-            </div>
-          </div>
-        </div>
+  <!-- PUBLICATIONS -->
+  <main class="section" id="publications">
+    <div class="container-xl px-3">
+      <div class="section-header">
+        <h2 class="section-title">Publications</h2>
+        <p class="section-subtitle">Selected papers, with quick access to PDF / abstract / bibtex.</p>
       </div>
-    </div>
 
-    <h3 class="subsection-heading">Conference Articles</h3>
-    <div class="container-fluid papers">
-      <div class="row">
-        <div class="col-lg-5">
-          <img src="images/paper_5.png" alt="paper-photo" class="img-thumbnail">
-        </div>
-        <div class="col-lg-7">
-          <h1 class="paper-info">Uncertainty in Minimum Cost Multicuts for Image and Motion Segmentation</h1>
-          <h1 class="paper-info"><strong>Amirhossein Kardoost</strong>, Margret Keuper</h1>
-          <h1 class="paper-info">UAI 2021</h1>
-          <p>
-            <a target="_blank" href="https://arxiv.org/pdf/2105.07469.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract5" aria-expanded="false" aria-controls="collapseExample">
-              abstract
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex5" aria-expanded="false" aria-controls="collapseExample">
-              bibtex
-            </button>
-          </p>
-          <div class="collapse" id="collapseAbstract5">
-            <div class="card card-body paper-abstract">
-              The minimum cost lifted multicut approach has proven practically good performance in a wide range of applications such as image decomposition, mesh segmentation, multiple object tracking, and motion segmentation. It addresses such problems in a graph-based model, where real-valued costs are assigned to the edges between entities such that the minimum cut decomposes the graph into an optimal number of segments. Driven by a probabilistic formulation of minimum cost multicuts, we provide a measure for the uncertainties of the decisions made during the optimization. We argue that access to such uncertainties is crucial for many practical applications and conduct an evaluation by means of sparsifications on three different, widely used datasets in the context of image decomposition (BSDS-500) and motion segmentation (DAVIS2016 and FBMS59) in terms of variation of information (VI) and Rand index (RI).
+      <h3 class="subsection-title">Journal Articles</h3>
+
+      <!-- TPAMI 2022 -->
+      <article class="paper">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img src="images/paper_6.png" alt="Paper thumbnail: Higher-Order Multicuts" class="paper-thumb">
+          </div>
+          <div class="col-lg-8">
+            <h4 class="paper-title">Higher-Order Multicuts for Geometric Model Fitting and Motion Segmentation</h4>
+            <div class="paper-authors">Evgeny Levinkov*, <strong>Amirhossein Kardoost*</strong>, Bjoern Andres, Margret Keuper</div>
+            <div class="paper-venue mono">TPAMI · 2022 · (* Contributed equally)</div>
+
+            <div class="paper-actions">
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9706260"
+                class="btn btn-sm btn-primary">PDF</a>
+
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseAbstract6" aria-expanded="false">Abstract</button>
+
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseBibtex6" aria-expanded="false">BibTeX</button>
+            </div>
+
+            <div class="collapse" id="collapseAbstract6">
+              <div class="paper-box">
+                The minimum cost lifted multicut problem is a generalization of the multicut problem (also known as correlation clustering) and is a means to optimizing a decomposition of a graph w.r.t. both positive and negative edge costs. It has been shown to be useful in a large variety of applications in computer vision thanks to the fact that multicut-based formulations do not require the number of components given a priori; instead, it is deduced from the solution. However, the standard multicut cost function is limited to pairwise relationships between nodes, while several important applications either require or can benefit from a higher-order cost function, i.e. hyper-edges. In this paper, we propose a pseudo-boolean formulation for a multiple model fitting problem. It is based on a formulation of any-order minimum cost lifted multicuts, which allows to partition an undirected graph with pairwise connectivity such as to minimize costs defined over any set of hyper-edges. As the proposed formulation is NP-hard and the branch-and-bound algorithm (as well as obtaining lower bounds) is too slow in practice, we propose an efficient local search algorithm for inference into resulting problems. We demonstrate versatility and effectiveness of our approach in several applications: 1) We define a geometric multiple model fitting, more specifically, a line fitting problem on all triplets of points and group points, that belong to the same line, together. 2) We formulate homography and motion estimation as a geometric model fitting problem where the task is to find groups of points that can be explained by the same geometrical transformation. 3) In motion segmentation our model allows to go from modeling translational motion to Euclidean or affine transformations, which improves the segmentation quality in terms of F-measure.
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseBibtex6">
+              <pre class="paper-box mono">@article{kardoost_tpami_2022,
+  author = {Levinkov, Evgeny and Kardoost, Amirhossein and Andres, Bjoern and Keuper, Margret},
+  journal = {Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  title = {Higher-Order Multicuts for Geometric Model Fitting and Motion Segmentation},
+  year = {2022},
+  doi = {10.1109/TPAMI.2022.3148795}
+}</pre>
             </div>
           </div>
-          <div class="collapse" id="collapseBibtex5">
-            <div class="card card-body">
-              @inproceedings{kardoost_uai_2021, <br>
-              author = {Kardoost, Amirhossein and Keuper, Margret}, <br>
-              title = {Uncertainty in Minimum Cost Multicuts for Image and Motion Segmentation}, <br>
-              booktitle = {Uncertainty in Artificial Intelligence (UAI)}, <br>
-              year = {2021} <br>
-              }
+        </div>
+      </article>
+
+      <!-- J Appl Cryst 2024 -->
+      <article class="paper">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img src="images/paper_8.png" alt="Paper thumbnail: in cellulo crystals" class="paper-thumb">
+          </div>
+          <div class="col-lg-8">
+            <h4 class="paper-title">Convolutional Neural Network Approach for the Automated Identification of <em>in Cellulo</em> Crystals</h4>
+            <div class="paper-authors"><strong>Amirhossein Kardoost</strong>, Robert Schönherr, Carsten Deiter, Lars Redecke, Kristina Lorenzen, Joachim Schulz, Iñaki de Diego</div>
+            <div class="paper-venue mono">Journal of Applied Crystallography · 2024</div>
+
+            <div class="paper-actions">
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://journals.iucr.org/j/issues/2024/02/00/jo5091/jo5091.pdf"
+                class="btn btn-sm btn-primary">PDF</a>
+
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseAbstract7" aria-expanded="false">Abstract</button>
+
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseBibtex7" aria-expanded="false">BibTeX</button>
+
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://github.com/Amirhk-dev/Convolutional-Neural-Network-Approach-for-the-Automated-Identification-of-in-Cellulo-Crystals"
+                class="btn btn-sm btn-outline-light">Code</a>
+
+              <a target="_blank" rel="noopener noreferrer" href="https://zenodo.org/records/10475962"
+                class="btn btn-sm btn-outline-light">Data</a>
+            </div>
+
+            <div class="collapse" id="collapseAbstract7">
+              <div class="paper-box">
+                In cellulo crystallization is a rare event in nature. Recent advances that have made use of heterologous overexpression can promote the intracellular formation of protein crystals, but new tools are required to detect and characterize these targets in the complex cell environment. The present work makes use of Mask R-CNN, a convolutional neural network (CNN)-based instance segmentation method, for the identification of either single or multi-shaped crystals growing in living insect cells, using conventional bright field images. The algorithm can be rapidly adapted to recognize different targets, with the aim of extracting relevant information to support a semi-automated screening pipeline, in order to aid the development of the intracellular protein crystallization approach.
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseBibtex7">
+              <pre class="paper-box mono">@article {Kardoost_2024,
+  author = {Amirhossein Kardoost and Robert Sch{\"o}nherr and Carsten Deiter and Lars Redecke and Kristina Lorenzen and Joachim Schulz and I{\~n}aki de Diego},
+  title = {Convolutional neural network approach for the automated identification of in cellulo crystals},
+  year = {2024},
+  volume = {57},
+  doi = {10.1107/S1600576724000682},
+  publisher = {IUCR/Wiley},
+  journal = {Journal of Applied Crystallography}
+}</pre>
             </div>
           </div>
         </div>
+      </article>
+
+      <h3 class="subsection-title mt-5">Conference Articles</h3>
+
+      <!-- UAI 2021 -->
+      <article class="paper">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img src="images/paper_5.png" alt="Paper thumbnail: Uncertainty in multicuts" class="paper-thumb">
+          </div>
+          <div class="col-lg-8">
+            <h4 class="paper-title">Uncertainty in Minimum Cost Multicuts for Image and Motion Segmentation</h4>
+            <div class="paper-authors"><strong>Amirhossein Kardoost</strong>, Margret Keuper</div>
+            <div class="paper-venue mono">UAI · 2021</div>
+
+            <div class="paper-actions">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2105.07469.pdf"
+                class="btn btn-sm btn-primary">PDF</a>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseAbstract5" aria-expanded="false">Abstract</button>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseBibtex5" aria-expanded="false">BibTeX</button>
+            </div>
+
+            <div class="collapse" id="collapseAbstract5">
+              <div class="paper-box">
+                The minimum cost lifted multicut approach has proven practically good performance in a wide range of applications such as image decomposition, mesh segmentation, multiple object tracking, and motion segmentation. It addresses such problems in a graph-based model, where real-valued costs are assigned to the edges between entities such that the minimum cut decomposes the graph into an optimal number of segments. Driven by a probabilistic formulation of minimum cost multicuts, we provide a measure for the uncertainties of the decisions made during the optimization. We argue that access to such uncertainties is crucial for many practical applications and conduct an evaluation by means of sparsifications on three different, widely used datasets in the context of image decomposition (BSDS-500) and motion segmentation (DAVIS2016 and FBMS59) in terms of variation of information (VI) and Rand index (RI).
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseBibtex5">
+              <pre class="paper-box mono">@inproceedings{kardoost_uai_2021,
+  author = {Kardoost, Amirhossein and Keuper, Margret},
+  title = {Uncertainty in Minimum Cost Multicuts for Image and Motion Segmentation},
+  booktitle = {Uncertainty in Artificial Intelligence (UAI)},
+  year = {2021}
+}</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ACCV 2020 (Self-supervised Sparse to Dense Motion Segmentation) -->
+      <article class="paper">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img src="images/paper_3.png" alt="Paper thumbnail: Sparse to dense motion segmentation" class="paper-thumb">
+          </div>
+          <div class="col-lg-8">
+            <h4 class="paper-title">Self-supervised Sparse to Dense Motion Segmentation</h4>
+            <div class="paper-authors"><strong>Amirhossein Kardoost</strong>, Kalun Ho, Peter Ochs, Margret Keuper</div>
+            <div class="paper-venue mono">ACCV · 2020</div>
+
+            <div class="paper-actions">
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://openaccess.thecvf.com/content/ACCV2020/papers/Kardoost_Self-supervised_Sparse_to_Dense_Motion_Segmentation_ACCV_2020_paper.pdf"
+                class="btn btn-sm btn-primary">PDF</a>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseAbstract3" aria-expanded="false">Abstract</button>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseBibtex3" aria-expanded="false">BibTeX</button>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=eqpxBkxJ5NQ"
+                class="btn btn-sm btn-outline-light">Video</a>
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://github.com/Amirhk-dev/Self-supervised-Sparse-to-Dense-Motion-Segmentation"
+                class="btn btn-sm btn-outline-light">Code</a>
+            </div>
+
+            <div class="collapse" id="collapseAbstract3">
+              <div class="paper-box">
+                Observable motion in videos can give rise to the definition of objects moving with respect to the scene. The task of segmenting such moving objects is referred to as motion segmentation and is usually tackled either by aggregating motion information in long, sparse point trajectories, or by directly producing per frame dense segmentations relying on large amounts of training data. In this paper, we propose a self supervised method to learn the densification of sparse motion segmentations from single video frames. While previous approaches towards motion segmentation build upon pre-training on large surrogate datasets and use dense motion information as an essential cue for the pixelwise segmentation, our model does not require pre-training and operates at test time on single frames. It can be trained in a sequence specific way to produce high quality dense segmentations from sparse and noisy input. We evaluate our method on the well-known motion segmentation datasets FBMS59 and DAVIS2016.
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseBibtex3">
+              <pre class="paper-box mono">@inproceedings{kardoost_accv_2020_a,
+  author = {Kardoost, Amirhossein and Ho, Kalun and Ochs, Peter and Keuper, Margret},
+  title = {Self-supervised Sparse to Dense Motion Segmentation},
+  booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+  month = {November},
+  year = {2020}
+}</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ACCV 2020 (Two-Stage Multicut for MOT) -->
+      <article class="paper">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img src="images/paper_4.png" alt="Paper thumbnail: Two-stage multicut MOT" class="paper-thumb">
+          </div>
+          <div class="col-lg-8">
+            <h4 class="paper-title">A Two-Stage Minimum Cost Multicut Approach to Self-Supervised Multiple Person Tracking</h4>
+            <div class="paper-authors">Kalun Ho, <strong>Amirhossein Kardoost</strong>, Franz-Josef Pfreundt, Janis Keuper, Margret Keuper</div>
+            <div class="paper-venue mono">ACCV · 2020</div>
+
+            <div class="paper-actions">
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://openaccess.thecvf.com/content/ACCV2020/papers/Ho_A_Two-Stage_Minimum_Cost_Multicut_Approach_to_Self-Supervised_Multiple_Person_ACCV_2020_paper.pdf"
+                class="btn btn-sm btn-primary">PDF</a>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseAbstract4" aria-expanded="false">Abstract</button>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseBibtex4" aria-expanded="false">BibTeX</button>
+            </div>
+
+            <div class="collapse" id="collapseAbstract4">
+              <div class="paper-box">
+                Multiple Object Tracking (MOT) is a long-standing task in computer vision. Current approaches based on the tracking by detection paradigm either require some sort of domain knowledge or supervision to associate data correctly into tracks. In this work, we present a self-supervised multiple object tracking approach based on visual features and minimum cost lifted multicuts. Our method is based on straight-forward spatio-temporal cues that can be extracted from neighboring frames in an image sequences without supervision. Clustering based on these cues enables us to learn the required appearance invariances for the tracking task at hand and train an AutoEncoder to generate suitable latent representations. Thus, the resulting latent representations can serve as robust appearance cues for tracking even over large temporal distances where no reliable spatio-temporal features can be extracted. We show that, despite being trained without using the provided annotations, our model provides competitive results on the challenging MOT Benchmark for pedestrian tracking.
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseBibtex4">
+              <pre class="paper-box mono">@inproceedings{kardoost_accv_2020_b,
+  author = {Ho, Kalun and Kardoost, Amirhossein and Pfreundt, Franz-Josef and Keuper, Janis and Keuper, Margret},
+  title = {A Two-Stage Minimum Cost Multicut Approach to Self-Supervised Multiple Person Tracking},
+  booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+  month = {November},
+  year = {2020}
+}</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ICPR 2020 (your bib says 2021; keep your original) -->
+      <article class="paper">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img src="images/paper_2.png" alt="Paper thumbnail: Object Segmentation Tracking" class="paper-thumb">
+          </div>
+          <div class="col-lg-8">
+            <h4 class="paper-title">Object Segmentation Tracking from Generic Video Cues</h4>
+            <div class="paper-authors"><strong>Amirhossein Kardoost</strong>, Sabine Müller, Joachim Weickert, Margret Keuper</div>
+            <div class="paper-venue mono">ICPR · 2021</div>
+
+            <div class="paper-actions">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/1910.02258.pdf"
+                class="btn btn-sm btn-primary">PDF</a>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseAbstract2" aria-expanded="false">Abstract</button>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseBibtex2" aria-expanded="false">BibTeX</button>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Vw-hnI6p8uU"
+                class="btn btn-sm btn-outline-light">Video</a>
+            </div>
+
+            <div class="collapse" id="collapseAbstract2">
+              <div class="paper-box">
+                We propose a light-weight variational framework for online tracking of object segmentations in videos based on optical flow and image boundaries. While high-end computer vision methods on this task rely on sequence specific training of dedicated CNN architectures, we show the potential of a variational model, based on generic video information from motion and color. Such cues are usually required for tasks such as robot navigation or grasp estimation. We leverage them directly for video object segmentation and thus provide accurate segmentations at potentially very low extra cost. Our simple method can provide competitive results compared to the costly CNN-based methods with parameter tuning. Furthermore, we show that our approach can be combined with state-of-the-art CNN-based segmentations in order to improve over their respective results. We evaluate our method on the datasets DAVIS16,17 and SegTrack v2.
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseBibtex2">
+              <pre class="paper-box mono">@inproceedings{kardoost_icpr_2021,
+  author = {Kardoost, Amirhossein and Müller, Sabine and Weickert, Joachim and Keuper, Margret},
+  booktitle = {2020 25th International Conference on Pattern Recognition (ICPR)},
+  title = {Object Segmentation Tracking from Generic Video Cues},
+  year = {2021},
+  doi = {10.1109/ICPR48806.2021.9413089}
+}</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ACCV 2018 -->
+      <article class="paper">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img src="images/paper_1.png" alt="Paper thumbnail: Solving MCLMP" class="paper-thumb">
+          </div>
+          <div class="col-lg-8">
+            <h4 class="paper-title">Solving Minimum Cost Lifted Multicut Problems by Node Agglomeration</h4>
+            <div class="paper-authors"><strong>Amirhossein Kardoost</strong>, Margret Keuper</div>
+            <div class="paper-venue mono">ACCV · 2018</div>
+
+            <div class="paper-actions">
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://web.informatik.uni-mannheim.de/akardoos/pdf-file/Solving_MCLMP_by_Node_Agglomeration.pdf"
+                class="btn btn-sm btn-primary">PDF</a>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseAbstract1" aria-expanded="false">Abstract</button>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseBibtex1" aria-expanded="false">BibTeX</button>
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://github.com/Amirhk-dev/Solving-Minimum-Cost-Lifted-Multicut-Problems-by-Node-Agglomeration"
+                class="btn btn-sm btn-outline-light">Code</a>
+            </div>
+
+            <div class="collapse" id="collapseAbstract1">
+              <div class="paper-box">
+                Despite its complexity, the minimum cost lifted multicut problem has found a wide range of applications in recent years, such as image and mesh decomposition or multiple object tracking. Its solutions are decompositions of a graph into an optimal number of segments which are optimized w.r.t. a cost function defined on a superset of the edge set. While the currently available solvers for this problem provide high quality solutions in terms of the task to be solved, they can have long computation times for more difficult problem instances. Here, we propose two variants of a heuristic solver (primal feasible heuristic), which greedily generate solutions within a bounded amount of time. Evaluations on image and mesh segmentation benchmarks show the high quality of these solutions.
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseBibtex1">
+              <pre class="paper-box mono">@inproceedings{kardoost_accv_2018,
+  TITLE = {Solving Minimum Cost Lifted Multicut Problems by Node Agglomeration},
+  AUTHOR = {Kardoost, Amirhossein and Keuper, Margret},
+  YEAR = {2018},
+  BOOKTITLE = {ACCV 2018, 14th Asian Conference on Computer Vision}
+}</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- GCPR 2022 -->
+      <article class="paper">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img src="images/paper_7.png" alt="Paper thumbnail: Edge detection for multicut" class="paper-thumb">
+          </div>
+          <div class="col-lg-8">
+            <h4 class="paper-title">Optimizing Edge Detection for Image Segmentation with Multicut Penalties</h4>
+            <div class="paper-authors">Steffen Jung, Sebastian Ziegler, <strong>Amirhossein Kardoost</strong>, Margret Keuper</div>
+            <div class="paper-venue mono">GCPR · 2022</div>
+
+            <div class="paper-actions">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2112.05416.pdf"
+                class="btn btn-sm btn-primary">PDF</a>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseAbstract0" aria-expanded="false">Abstract</button>
+              <button class="btn btn-sm btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseBibtex0" aria-expanded="false">BibTeX</button>
+            </div>
+
+            <div class="collapse" id="collapseAbstract0">
+              <div class="paper-box">
+                The Minimum Cost Multicut Problem (MP) is a popular way for obtaining a graph decomposition by optimizing binary edge labels over edge costs. While the formulation of a MP from independently estimated costs per edge is highly flexible and intuitive, solving the MP is NP-hard and time-expensive. As a remedy, recent work proposed to predict edge probabilities with awareness to potential conflicts by incorporating cycle constraints in the prediction process. We argue that such formulation, while providing a first step towards end-to-end learnable edge weights, is suboptimal, since it is built upon a loose relaxation of the MP. We therefore propose an adaptive CRF that allows to progressively consider more violated constraints and, in consequence, to issue solutions with higher validity. Experiments on the BSDS500 benchmark for natural image segmentation as well as on electron microscopic recordings show that our approach yields more precise edge detection and image segmentation.
+              </div>
+            </div>
+
+            <div class="collapse" id="collapseBibtex0">
+              <pre class="paper-box mono">@inproceedings{gcpr_2022,
+  TITLE = {Optimizing Edge Detection for Image Segmentation with Multicut Penalties},
+  AUTHOR = {Jung, Steffen and Ziegler, Sebastian and Kardoost, Amirhossein and Keuper, Margret},
+  YEAR = {2022},
+  BOOKTITLE = {GCPR, German Conference on Pattern Recognition}
+}</pre>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container-xl px-3">
+      <div class="footer-inner">
+        <div class="footer-line mono">✉ amirhossein.kardoost AT helmholtz-munich.de</div>
+        <a class="link-accent mono" target="_blank" rel="noopener noreferrer"
+          href="https://amirhk-dev.github.io/">amirhk-dev.github.io</a>
       </div>
-    </div>
-
-    <div class="container-fluid papers">
-      <div class="row">
-        <div class="col-lg-5">
-          <img src="images/paper_3.png" alt="paper-photo" class="img-thumbnail">
-        </div>
-        <div class="col-lg-7">
-          <h1 class="paper-info">Self-supervised Sparse to Dense Motion Segmentation</h1>
-          <h1 class="paper-info"><strong>Amirhossein Kardoost</strong>, Kalun Ho, Peter Ochs, Margret Keuper</h1>
-          <h1 class="paper-info">ACCV 2020</h1>
-          <p>
-            <a target="_blank" href="https://openaccess.thecvf.com/content/ACCV2020/papers/Kardoost_Self-supervised_Sparse_to_Dense_Motion_Segmentation_ACCV_2020_paper.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract3" aria-expanded="false" aria-controls="collapseExample">
-              abstract
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex3" aria-expanded="false" aria-controls="collapseExample">
-              bibtex
-            </button>
-            <a target="_blank" href="https://www.youtube.com/watch?v=eqpxBkxJ5NQ" class="btn btn-primary" role="button" aria-pressed="true">video</a>
-            <a target="_blank" href="https://github.com/Amirhk-dev/Self-supervised-Sparse-to-Dense-Motion-Segmentation" class="btn btn-primary" role="button" aria-pressed="true">code</a>
-          </p>
-          <div class="collapse" id="collapseAbstract3">
-            <div class="card card-body paper-abstract">
-              Observable motion in videos can give rise to the definition of objects moving with respect to the scene. The task of segmenting such moving objects is referred to as motion segmentation and is usually tackled either by aggregating motion information in long, sparse point trajectories, or by directly producing per frame dense segmentations relying on large amounts of training data. In this paper, we propose a self supervised method to learn the densification of sparse motion segmentations from single video frames. While previous approaches towards motion segmentation build upon pre-training on large surrogate datasets and use dense motion information as an essential cue for the pixelwise segmentation, our model does not require pre-training and operates at test time on single frames. It can be trained in a sequence specific way to produce high quality dense segmentations from sparse and noisy input. We evaluate our method on the well-known motion segmentation datasets FBMS59 and DAVIS2016.
-            </div>
-          </div>
-          <div class="collapse" id="collapseBibtex3">
-            <div class="card card-body">
-              @inproceedings{kardoost_accv_2020_a, <br>
-              author = {Kardoost, Amirhossein and Ho, Kalun and Ochs, Peter and Keuper, Margret}, <br>
-              title = {Self-supervised Sparse to Dense Motion Segmentation}, <br>
-              booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)}, <br>
-              month = {November}, <br>
-              year = {2020} <br>
-              }
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid papers">
-      <div class="row">
-        <div class="col-lg-5">
-          <img src="images/paper_4.png" alt="paper-photo" class="img-thumbnail">
-        </div>
-        <div class="col-lg-7">
-          <h1 class="paper-info">A Two-Stage Minimum Cost Multicut Approach to Self-Supervised Multiple Person Tracking</h1>
-          <h1 class="paper-info">Kalun Ho, <strong>Amirhossein Kardoost</strong>, Franz-Josef Pfreundt, Janis Keuper, Margret Keuper</h1>
-          <h1 class="paper-info">ACCV 2020</h1>
-          <p>
-            <a target="_blank" href="https://openaccess.thecvf.com/content/ACCV2020/papers/Ho_A_Two-Stage_Minimum_Cost_Multicut_Approach_to_Self-Supervised_Multiple_Person_ACCV_2020_paper.pdf" class="btn btn-primary" role="button"
-              aria-pressed="true">pdf</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract4" aria-expanded="false" aria-controls="collapseExample">
-              abstract
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex4" aria-expanded="false" aria-controls="collapseExample">
-              bibtex
-            </button>
-          </p>
-          <div class="collapse" id="collapseAbstract4">
-            <div class="card card-body paper-abstract">
-              Multiple Object Tracking (MOT) is a long-standing task in computer vision. Current approaches based on the tracking by detection paradigm either require some sort of domain knowledge or supervision to associate data correctly into tracks. In this work, we present a self-supervised multiple object tracking approach based on visual features and minimum cost lifted multicuts. Our method is based on straight-forward spatio-temporal cues that can be extracted from neighboring frames in an image sequences without supervision. Clustering based on these cues enables us to learn the required appearance invariances for the tracking task at hand and train an AutoEncoder to generate suitable latent representations. Thus, the resulting latent representations can serve as robust appearance cues for tracking even over large temporal distances where no reliable spatio-temporal features can be extracted. We show that, despite being trained without using the provided annotations, our model provides competitive results on the challenging MOT Benchmark for pedestrian tracking.
-            </div>
-          </div>
-          <div class="collapse" id="collapseBibtex4">
-            <div class="card card-body">
-              @inproceedings{kardoost_accv_2020_b, <br>
-              author = {Ho, Kalun and Kardoost, Amirhossein and Pfreundt, Franz-Josef and Keuper, Janis and Keuper, Margret}, <br>
-              title = {A Two-Stage Minimum Cost Multicut Approach to Self-Supervised Multiple Person Tracking}, <br>
-              booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)}, <br>
-              month = {November}, <br>
-              year = {2020} <br>
-              }
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid papers">
-      <div class="row">
-        <div class="col-lg-5">
-          <img src="images/paper_2.png" alt="paper-photo" class="img-thumbnail">
-        </div>
-        <div class="col-lg-7">
-          <h1 class="paper-info">Object Segmentation Tracking from Generic Video Cues</h1>
-          <h1 class="paper-info"><strong>Amirhossein Kardoost</strong>, Sabine Müller, Joachim Weickert, Margret Keuper</h1>
-          <h1 class="paper-info">ICPR 2020</h1>
-          <p>
-            <a target="_blank" href="https://arxiv.org/pdf/1910.02258.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract2" aria-expanded="false" aria-controls="collapseExample">
-              abstract
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex2" aria-expanded="false" aria-controls="collapseExample">
-              bibtex
-            </button>
-            <a target="_blank" href="https://www.youtube.com/watch?v=Vw-hnI6p8uU" class="btn btn-primary" role="button" aria-pressed="true">video</a>
-          </p>
-          <div class="collapse" id="collapseAbstract2">
-            <div class="card card-body paper-abstract">
-              We propose a light-weight variational framework for online tracking of object segmentations in videos based on optical flow and image boundaries. While high-end computer vision methods on this task rely on sequence specific training of dedicated CNN architectures, we show the potential of a variational model, based on generic video information from motion and color. Such cues are usually required for tasks such as robot navigation or grasp estimation. We leverage them directly for video object segmentation and thus provide accurate segmentations at potentially very low extra cost. Our simple method can provide competitive results compared to the costly CNN-based methods with parameter tuning. Furthermore, we show that our approach can be combined with state-of-the-art CNN-based segmentations in order to improve over their respective results. We evaluate our method on the datasets DAVIS16,17 and SegTrack v2.
-            </div>
-          </div>
-          <div class="collapse" id="collapseBibtex2">
-            <div class="card card-body">
-              @inproceedings{kardoost_icpr_2021, <br>
-              author={Kardoost, Amirhossein and Müller, Sabine and Weickert, Joachim and Keuper, Margret}, <br>
-              booktitle={2020 25th International Conference on Pattern Recognition (ICPR)}, <br>
-              title={Object Segmentation Tracking from Generic Video Cues}, <br>
-              year={2021}, <br>
-              doi={10.1109/ICPR48806.2021.9413089} <br>
-              }
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid papers">
-      <div class="row">
-        <div class="col-lg-5">
-          <img src="images/paper_1.png" alt="paper-photo" class="img-thumbnail">
-        </div>
-        <div class="col-lg-7">
-          <h1 class="paper-info">Solving Minimum Cost Lifted Multicut Problems by Node Agglomeration</h1>
-          <h1 class="paper-info"><strong>Amirhossein Kardoost</strong>, Margret Keuper</h1>
-          <h1 class="paper-info">ACCV 2018</h1>
-          <p>
-            <a target="_blank" href="https://web.informatik.uni-mannheim.de/akardoos/pdf-file/Solving_MCLMP_by_Node_Agglomeration.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract1" aria-expanded="false" aria-controls="collapseExample">
-              abstract
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex1" aria-expanded="false" aria-controls="collapseExample">
-              bibtex
-            </button>
-            <a target="_blank" href="https://github.com/Amirhk-dev/Solving-Minimum-Cost-Lifted-Multicut-Problems-by-Node-Agglomeration" class="btn btn-primary" role="button" aria-pressed="true">code</a>
-          </p>
-          <div class="collapse" id="collapseAbstract1">
-            <div class="card card-body paper-abstract">
-              Despite its complexity, the minimum cost lifted multicut problem has found a wide range of applications in recent years, such as image and mesh decomposition or multiple object tracking. Its solutions are decompositions of a graph into an optimal number of segments which are optimized w.r.t. a cost function defined on a superset of the edge set. While the currently available solvers for this problem provide high quality solutions in terms of the task to be solved, they can have long computation times for more difficult problem instances. Here, we propose two variants of a heuristic solver (primal feasible heuristic), which greedily generate solutions within a bounded amount of time. Evaluations on image and mesh segmentation benchmarks show the high quality of these solutions.
-            </div>
-          </div>
-          <div class="collapse" id="collapseBibtex1">
-            <div class="card card-body">
-              @inproceedings{kardoost_accv_2018, <br>
-              TITLE = {Solving Minimum Cost Lifted Multicut Problems by Node Agglomeration}, <br>
-              AUTHOR = {Kardoost, Amirhossein and Keuper, Margret}, <br>
-              YEAR = {2018}, <br>
-              BOOKTITLE = {ACCV 2018, 14th Asian Conference on Computer Vision}, <br>
-              }
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid papers">
-      <div class="row">
-        <div class="col-lg-5">
-          <img src="images/paper_7.png" alt="paper-photo" class="img-thumbnail">
-        </div>
-        <div class="col-lg-7">
-          <h1 class="paper-info">Optimizing Edge Detection for Image Segmentation with Multicut Penalties</h1>
-          <h1 class="paper-info">Steffen Jung, Sebastian Ziegler, <strong>Amirhossein Kardoost</strong>, Margret Keuper</h1>
-          <h1 class="paper-info">GCPR 2022</h1>
-          <p>
-            <a target="_blank" href="https://arxiv.org/pdf/2112.05416.pdf" class="btn btn-primary" role="button" aria-pressed="true">pdf</a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbstract0" aria-expanded="false" aria-controls="collapseExample">
-              abstract
-            </button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBibtex0" aria-expanded="false" aria-controls="collapseExample">
-              bibtex
-            </button>
-          </p>
-          <div class="collapse" id="collapseAbstract0">
-            <div class="card card-body paper-abstract">
-              The Minimum Cost Multicut Problem (MP) is a popular way for obtaining a graph decomposition by optimizing binary edge labels over edge costs. While the formulation of a MP from independently estimated costs per edge is highly flexible and intuitive, solving the MP is NP-hard and time-expensive. As a remedy, recent work proposed to predict edge probabilities with awareness to potential conflicts by incorporating cycle constraints in the prediction process. We argue that such formulation, while providing a first step towards end-to-end learnable edge weights, is suboptimal, since it is built upon a loose relaxation of the MP. We therefore propose an adaptive CRF that allows to progressively consider more violated constraints and, in consequence, to issue solutions with higher validity. Experiments on the BSDS500 benchmark for natural image segmentation as well as on electron microscopic recordings show that our approach yields more precise edge detection and image segmentation.
-            </div>
-          </div>
-          <div class="collapse" id="collapseBibtex0">
-            <div class="card card-body">
-              @inproceedings{gcpr_2022, <br>
-                TITLE = {Optimizing Edge Detection for Image Segmentation with Multicut Penalties}, <br>
-                AUTHOR = {Jung, Steffen and Ziegler, Sebastian and Kardoost, Amirhossein and Keuper, Margret}, <br>
-                YEAR = {2022}, <br>
-                BOOKTITLE = {GCPR, German Conference on Pattern Recognition}, <br>
-              }
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <p id="contact-info">✉ amirhossein.kardoost AT helmholtz-munich.de</p>
-      <a class="link-website" href="https://amirhk-dev.github.io/">amirhk-dev.github.io</a>
-      <div id="copyright">
-        <hr>
-        <p class="copyright-text">Powered by Bootstrap.</p>
+      <div class="footer-bottom">
+        <hr class="hr-soft">
+        <div class="small mono">Powered by Bootstrap · Built with HTML/CSS</div>
       </div>
     </div>
   </footer>
