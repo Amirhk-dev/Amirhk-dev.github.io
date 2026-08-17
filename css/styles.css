@@ -217,7 +217,7 @@ img, video {
 
 .paper-authors {
     color: var(--text);
-    margin: 2px 0 0;
+    margin: 6px 0 0;
     font-size: 0.95em;
 }
 
@@ -227,14 +227,14 @@ img, video {
 
 .paper-conference {
     color: var(--muted);
-    margin: 2px 0 4px;
+    margin: 6px 0 0;
     font-size: 0.95em;
     font-style: italic;
 }
 
 .paper-links {
     color: var(--muted);
-    margin: 4px 0 0;
+    margin: 10px 0 0;
     display: flex;
     flex-wrap: wrap;
     gap: 4px 12px;
